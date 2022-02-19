@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cards{
+    height: 90%;
+    background-color: white;
+    text-transform: capitalize;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 9px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+}
+.cards img{
+    height: 60% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0;
+    border-radius: 1rem;
+}
+.text{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.text h5{
+    margin: 0 !important;
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 1rem !important;
+}
+#spanuse{
+    padding-top: 6rem !important;
+    font-size: 0.7rem !important;
+}

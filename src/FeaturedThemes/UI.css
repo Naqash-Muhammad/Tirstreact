@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#CardUI{
+    padding: 0 !important;
+    height: 49%;
+    width: 48% !important;
+    float: left;
+    margin-bottom: 0.9rem;
+    margin-left: 0.9rem;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 9px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.carD{
+    width: 100% !important;
+    height: 100% !important;
+    background-color: white;
+    border-radius: 0.4rem;
+}
+.carD img{
+    margin: 0 !important;
+    width: 100% !important;
+    height: 65% !important;
+    border-radius: 0.4rem;
+}
+.ahaha{
+    display: inline-flex;
+}
+#title{
+    font-weight: 800;
+    font-size: 0.9rem;
+}
+#title:hover{
+    text-decoration: underline;
+}
+#Shoping1{
+    border: 0.1rem solid green;
+}
+#Freture{
+    text-align: center;
+    padding-top: 20rem;
+    background-color: white;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 9px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.4rem;
+}
+
+
+@media(max-width:420px){
+    #Freture{
+        margin-top: 0rem;
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
+    }
+    #CardUI{
+        height: 38%;
+        width: 100% !important;
+        margin-bottom: 0.9rem;
+        margin-left: 0rem;   
+    }
+    #smart{
+        margin-top: 1rem;
+        padding: 0 !important;
+    }
+   
+}

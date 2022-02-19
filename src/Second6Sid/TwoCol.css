@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#imgSec{
+
+    float: right !important;
+    padding: 0.5rem;
+    width: 45% !important;
+    height: 10rem;
+    margin: 0rem !important;
+}
+.setting{
+    padding-top: 5rem;
+    padding-bottom: 9rem !important;
+}
+
+#setText{
+    width: 54%;
+}
+
+
+
+
+
+
+
+@media(max-width:420px){
+    #setText{
+        width: 100% !important;
+    }
+    #Sixby{
+        margin-top: 1rem;
+        padding: 1rem !important;
+    }
+    label{
+        padding: 0rem;
+        margin-left: 1rem;
+    }
+}

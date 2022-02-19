@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#Card{
+    border-radius: 5rem !important;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.card:hover{
+    background-color: white !important;
+    box-shadow: 0.1rem 0.1rem 0.1rem lightblue;
+}
+.card{
+    border-radius: 1rem;
+    padding: 0 !important;
+}
+.h3use{
+    font-weight: 800 !important;
+}
+.h3use:hover{
+    text-decoration: underline;
+}
+.img11 img{
+    height: 10rem;
+    width: 100% !important;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.ancae1{
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 0.7rem;
+    padding: 0.4rem;
+    margin: 0.5rem;
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+Button{
+    padding: 0.5rem !important;
+}
+
+#but1{
+    align-items: center !important;
+    align-content: center;
+}
+
+
+@media(max-width:420px){
+    #maincard{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}

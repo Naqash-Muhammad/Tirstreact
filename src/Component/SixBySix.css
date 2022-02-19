@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#Sixby{
+    margin-top: 8rem;
+    padding: 3rem !important;
+    text-transform: capitalize;
+}
+h6{
+    font-size: 0.8rem;
+    font-weight: 630;
+}
+h4{
+    font-weight: 700;
+}
+img{
+    margin-top: 3rem;
+    height: auto;
+    width: 70% !important;
+}
+
+input{
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+}
+label{
+    margin-left: 3rem;
+    width: 80%;
+    display: flex;
+    background-color: white;
+    border: 0.2rem solid gainsboro;
+    padding: 0.6rem;
+}
+#DataFull{
+    margin-left: 3.5rem !important;
+    border-bottom: 0.1rem solid grey;
+    background-color: white;
+}
+
+@media(max-width:420px){
+    img{
+        width: 100% !important;
+    }
+    #Sixby{
+        margin-top: 1rem;
+        padding: 1rem !important;
+    }
+    label{
+        padding: 0rem;
+        margin-left: 1rem;
+    }
+}
